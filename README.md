@@ -9,3 +9,5 @@ Created for the Xtext introduction session at [BFH](https://www.ti.bfh.ch/).
 * [sample ruleset](sample-model/src/winter.har)
 * [grammar definition](com.acme.homeautomation.dsl.parent/com.acme.homeautomation.dsl/src/com/acme/homeautomation/dsl/HarDsl.xtext)
 * [code generator](com.acme.homeautomation.dsl.parent/com.acme.homeautomation.dsl/src/com/acme/homeautomation/dsl/generator/HarDslGenerator.xtend)
+
+To get the code up and running, see [c.a.h.d.p/README](com.acme.homeautomation.dsl.parent/README.md)
