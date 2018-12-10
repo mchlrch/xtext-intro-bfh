@@ -1,0 +1,25 @@
+grammar com.acme.homeautomation.dsl.HarDsl
+	with org.eclipse.xtext.common.Terminals
+
+generate harDsl "http://www.acme.com/homeautomation/dsl/HarDsl"
+
+Model:
+	declarations+=Declaration*;
+	
+Declaration:
+	Device | Rule;
+
+Device:
+	'device' name=ID 'can' 'be'
+		states+=State*;
+
+State:
+	name=ID;
+
+Rule:
+	'rule' description=STRING
+		'when' when=[State|QualifiedName]
+		'then' then=[State|QualifiedName];
+
+QualifiedName:
+	ID ('.' ID)*;

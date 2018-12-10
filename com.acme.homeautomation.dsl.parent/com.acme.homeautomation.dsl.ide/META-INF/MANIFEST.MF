@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.acme.homeautomation.dsl.ide
+Bundle-ManifestVersion: 2
+Bundle-Name: com.acme.homeautomation.dsl.ide
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: com.acme.homeautomation.dsl.ide; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: com.acme.homeautomation.dsl,
+ org.eclipse.xtext.ide,
+ org.eclipse.xtext.xbase.ide,
+ org.antlr.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-9
+Export-Package: com.acme.homeautomation.dsl.ide.contentassist.antlr.internal,
+ com.acme.homeautomation.dsl.ide.contentassist.antlr
+

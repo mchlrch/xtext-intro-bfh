@@ -1,0 +1,11 @@
+$ node -i -e "$(< src-gen/winter.js)"
+> supported states:
+	Heating.OFF
+	Heating.ON
+	Window.CLOSED
+	Window.OPEN
+	
+state
+> event(Heating.ON)
+> event(Window.OPEN)
+> event(Heating.ON)
