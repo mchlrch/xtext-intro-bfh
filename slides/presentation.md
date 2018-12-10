@@ -3,9 +3,9 @@ class: center, middle
 
 # Xtext Introduction
 
-> BFH, 10.12.2018
+Michael Rauch
 
-[michael.rauch@zazuko.com](mailto:michael.rauch@zazuko.com)
+http://presentations.zazuko.com/xtext-intro-bfh
 
 This work is licensed under a
 
@@ -115,4 +115,4 @@ background-image: url(img/src-gen-winter.png)
 
 [Xtext Documentation](https://www.eclipse.org/Xtext/documentation/index.html) (tutorials and reference documentation)
 
-[com.acme.homeautomation.dsl on github](__) (sample ruleset, grammar definition, code generator, ...)
+[github repo of this session](https://github.com/mchlrch/xtext-intro-bfh) (code & slides)
